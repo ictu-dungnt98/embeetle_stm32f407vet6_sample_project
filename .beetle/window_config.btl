@@ -1,0 +1,82 @@
+{
+    "WINDOW-SIZE": [
+        980,
+        660
+    ],
+    "BOXES": {
+        "0": {
+            "BOX-H": {
+                "0": {
+                    "BOX-H": {
+                        "0": {
+                            "TABS": {
+                                "Filetree": "FileExplorer",
+                                "CURRENT-INDEX": 0
+                            }
+                        },
+                        "1": {
+                            "BOX-V": {
+                                "0": {
+                                    "TABS": {
+                                        "rel://source/user_code/main.c": [
+                                            "Editor",
+                                            0,
+                                            [
+                                                28,
+                                                25,
+                                                0
+                                            ]
+                                        ],
+                                        "rel://config/openocd_probe.cfg": [
+                                            "Editor",
+                                            1,
+                                            [
+                                                4,
+                                                0,
+                                                0
+                                            ]
+                                        ],
+                                        "Console": "Console",
+                                        "CURRENT-INDEX": 2
+                                    }
+                                },
+                                "1": {
+                                    "TABS": {
+                                        "Diagnostics": "Diagnostics",
+                                        "CURRENT-INDEX": 0
+                                    }
+                                }
+                            },
+                            "SIZES": [
+                                410,
+                                139
+                            ]
+                        }
+                    },
+                    "SIZES": [
+                        136,
+                        552
+                    ]
+                },
+                "1": {
+                    "BOX-H": {
+                        "0": {
+                            "TABS": {
+                                "Symbols": "Symbols",
+                                "Project Dashboard": "Dashboard",
+                                "CURRENT-INDEX": 1
+                            }
+                        }
+                    },
+                    "SIZES": [
+                        288
+                    ]
+                }
+            },
+            "SIZES": [
+                690,
+                288
+            ]
+        }
+    }
+}

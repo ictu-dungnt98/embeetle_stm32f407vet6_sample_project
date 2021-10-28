@@ -1,0 +1,69 @@
+embeetle.py:154: DeprecationWarning: 'U' mode is deprecated
+embeetle.py:154: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+Source Analyzer loaded successfully
+embeetle.py:164: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+embeetle.py:165: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+embeetle.py:181: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+WARNING: Cannot extract build-date from '/usr/local/bin/openocd'
+
+WARNING: Cannot add tool with 
+    exekind = None
+    dirpath = /usr
+    exepath = /usr/bin/x86_64-linux-gnu-gcc-9
+
+    For the following reason:
+        The parameter given to add_tool() is:
+        /usr/bin/x86_64-linux-gnu-gcc-9
+        and is recognized as a file.
+        the filename and filepath don't match        with any of the known patterns.
+
+SA: create project /home/dungnt98/stm32f407vet6
+embeetle.py:181: DeprecationWarning: 'U' mode is deprecated
+start_stop_sa_conditionally()
+SA: project set source path to /home/dungnt98/stm32f407vet6
+SA: project set build path to /home/dungnt98/stm32f407vet6/build
+set Include from False to True
+set Include from False to True
+set Inc from False to True
+set Inc from False to True
+SA: Source analysis took 4.217 seconds
+start_stop_sa_conditionally()
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+    CFG=default
+
+RETURNED FOR FLASHTOOL IN console_widget.py: /usr/local/bin/openocd
+start_stop_sa_conditionally()
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+    CFG=default
+
+RETURNED FOR FLASHTOOL IN console_widget.py: /usr/local/bin/openocd
+start_stop_sa_conditionally()
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+    CFG=default
+
+RETURNED FOR FLASHTOOL IN console_widget.py: /usr/local/bin/openocd

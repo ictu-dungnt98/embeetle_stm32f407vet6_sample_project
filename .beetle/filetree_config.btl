@@ -1,0 +1,58 @@
+################################################################################
+#                               FILETREE CONFIG                                #
+################################################################################
+# COPYRIGHT (c) 2020 Embeetle                                                  #
+# This software component is licensed by Embeetle under the MIT license. Con-  #
+# sult the license text at the bottom of this file.                            #
+#                                                                              #
+#------------------------------------------------------------------------------#
+#                                   SUMMARY                                    #
+#------------------------------------------------------------------------------#
+# This file saves all your settings from the Filetree.                         #
+#                                                                              #
+################################################################################
+
+
+external_folders = {}
+
+
+################################################################################
+#                                [cfg: default]                                #
+################################################################################
+[cfg: default]
+  config = {
+    '<project>': {
+      '.'                  : {'closedIconpath': 'icons/folder/yellow/closed/root.png', 'openIconpath': 'icons/folder/yellow/open/root.png'},
+      'build'              : {'cdir_spec': None, 'closedIconpath': 'icons/folder/yellow/closed/build.png', 'hdir_spec': None, 'openIconpath': 'icons/folder/yellow/open/build.png'},
+      'config'             : {'cdir_spec': None, 'closedIconpath': 'icons/folder/yellow/closed/folder.png', 'hdir_spec': None, 'openIconpath': 'icons/folder/yellow/open/folder.png'},
+      'source'             : {'cdir_spec': {'incl_inp': None}, 'closedIconpath': 'icons/folder/yellow/closed/folder.png', 'hdir_spec': {'srp_inp': None}, 'openIconpath': 'icons/folder/yellow/open/folder.png'},
+      'template'           : {'cdir_spec': {'incl_inp': False}, 'closedIconpath': 'icons/folder/yellow/closed/template.png', 'hdir_spec': {'srp_inp': False}, 'openIconpath': 'icons/folder/yellow/open/template.png'},
+      'template/Drivers/CMSIS/Core/Template'   : {'cdir_spec': {'incl_inp': False}, 'closedIconpath': 'icons/folder/yellow/closed/template.png', 'hdir_spec': None, 'openIconpath': 'icons/folder/yellow/open/template.png'},
+      'template/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/templates'              : {'cdir_spec': None, 'closedIconpath': 'icons/folder/yellow/closed/template.png', 'hdir_spec': {'srp_inp': None}, 'openIconpath': 'icons/folder/yellow/open/template.png'},
+      'template/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates'                    : {'cdir_spec': {'incl_inp': False}, 'closedIconpath': 'icons/folder/yellow/closed/template.png', 'hdir_spec': None, 'openIconpath': 'icons/folder/yellow/open/template.png'},
+      'template/Drivers/CMSIS/RTOS/Template'   : {'cdir_spec': None, 'closedIconpath': 'icons/folder/yellow/closed/template.png', 'hdir_spec': {'srp_inp': None}, 'openIconpath': 'icons/folder/yellow/open/template.png'},
+      'template/Drivers/CMSIS/RTOS2/Template'  : {'cdir_spec': {'incl_inp': False}, 'closedIconpath': 'icons/folder/yellow/closed/template.png', 'hdir_spec': {'srp_inp': None}, 'openIconpath': 'icons/folder/yellow/open/template.png'}
+    },
+  }
+
+# MIT LICENSE
+# ===========
+# COPYRIGHT (c) 2020 Embeetle
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is furn-
+# ished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
